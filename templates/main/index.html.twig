@@ -1,0 +1,154 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+<link rel="stylesheet" href="/css/style.css"/>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+
+        <div id="div-accueil" class="mt-5">
+            <div>
+                <h1 id="Nom">Nicolas Duplaix</h1>
+                <h2 id="Fonction">Développeur Web</h2>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="card text-white bg-secondary mb-3" id="Moi">
+                    <div class="card-header text-center">Ma présentation</div>
+                    <img class="card-img-top" src="/images/Moi.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text text-justify">Je m’appelle Nicolas Duplaix. J'ai 21 ans. Et je suis passionné de développement
+                            informatique depuis le collège où j’ai commencé à apprendre à coder en C++ grâce à la mooc de
+                            openclassroom ( le site du zéro à l’époque) où j’avais fait un petit jeu. Maintenant que j’ai plus
+                            de compétences j’apprécie de plus en plus la programmation lors de mes cours ou travaux à faire pour
+                            l’IUT.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="text-center mt-5" id="cursus">Etudes</h3>
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <div class="card text-white bg-secondary mb-3">
+                    <div class="card-header text-center">Lycée Guy Mollet</div>
+                    <img class="card-img-top" src="/images/GuyMo.jpg" alt="Card image cap" style="max-height: 300px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Bac S spécialité ISN</h4>
+
+                        <p class="card-text text-justify mb-2"><strong>2013-2016</strong>:Je suis allé au lycée Guy Mollet à Arras où j’ai passé mon
+                            bac S spécialité ISN (Informatique et Sciences du numérique). Cette
+                            spécialité m’a permis de me conforter dans mon idée de parcours professionnel. Nous avions
+                            étudié des langages : HTML CSS JavaScript. Pour la fin de l’année nous avions
+                            réalisé un jeu de tir sur cible avec ces langages et un site internet pour
+                            présenter le jeu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card text-white bg-secondary mb-3">
+                    <div class="card-header text-center">Université Lille 1</div>
+                    <img class="card-img-top" src="/images/Lille1.jpg" alt="Card image cap" style="max-height: 300px;">
+                    <div class="card-body">
+                        <h4 class="card-title">L1 SESI</h4>
+
+                        <p class="card-text text-justify mb-2"><strong>2016-2017</strong>: J’ai voulu me lancer dans une licence d’informatique je me suis donc tourné vers Lille où
+                            on m’a proposé la licence SESI (Sciences Exacts et Sciences pour l’Ingénieur) de Lille1. Mais durant cette année je
+                            me suis aperçu que ce cursus ne me convenait pas car il était trop général, donc trop théorique. Or je
+                            suis quelqu’un qui aime beaucoup pratiquer. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 offset-lg-3">
+                <div class="card text-white bg-secondary mb-3">
+                    <div class="card-header text-center">IUT de Lens</div>
+                    <img class="card-img-top" src="/images/IUT.JPG" alt="Card image cap" style="max-height: 300px;">
+                    <div class="card-body">
+                        <h4 class="card-title">DUT Informatique</h4>
+
+                        <p class="card-text text-justify"><strong>Depuis 2017</strong>: Je me suis donc réorienté en DUT informatique à l’IUT de
+                            Lens, parcours qui convient mieux à mes attentes dans la mesure où il y a plus
+                            de travaux pratiques. L’IUT m’a permis d’apprendre différents langages et d’appliquer ce que j'avais appris dans différents projets.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 id="experiences" class="text-center">Mes experiences professionnelles</h3>
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <div class="card text-white bg-secondary mb-3">
+                    <div class="card-header text-center">IEM Pierre Cazin</div>
+                    <img class="card-img-top" src="/images/IEM.jpg" alt="Card image cap" style="max-height: 300px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Moniteur Adjoint</h4>
+
+                        <p class="card-text text-justify mb-5"><strong>Juillet 2015 et Juillet 2016</strong>: Moniteur adjoint IEM
+                            Pierre Cazin d'Anzin Saint Aubin. Je devais aider des enfants polyhandicapés
+                            dans les actes de la vie quotidienne et organiser des activités pour les occuper.
+                            <br>Ce premier emploi en tant qu’étudiant m’a permis une première insertion professionnelle.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card text-white bg-secondary mb-3">
+                    <div class="card-header text-center">McDonald's Arras</div>
+                    <img class="card-img-top" src="/images/McDo.png" alt="Card image cap" style="max-height: 300px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Equipier Polyvalent</h4>
+
+                        <p class="card-text text-justify mb-4"><strong>Juillet et Août 2017</strong>:
+                            équipier polyvalent du Mcdonald's d’Arras. J’ai été affecté à plusieurs postes:
+                            la cuisine, le service à table, le nettoyage de salle. De plus je me suis occupé
+                            de faire la fermeture et l’ouverture ( à chaque fois accompagné d’un manager ).
+                            Ce poste m’a permis de tester mon efficacité au travail ainsi que ma polyvalence
+                            et ma capacité à m’adapter.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card text-white bg-secondary mb-3">
+                    <div class="card-header text-center">IEM Pierre Cazin</div>
+                    <img class="card-img-top" src="/images/IEM.jpg" alt="Card image cap" style="max-height: 300px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Assistant secrétariat et agent d'entretien</h4>
+
+                        <p class="card-text text-justify"><strong>Juin 2018</strong>:
+                            Assistant secrétariat, Agent d'entretien à l’IEM Pierre Cazin de Anzin St Aubin.
+                            Durant cette période j’effectuais deux missions à mi-temps dans l’entreprise.
+                            <br>-Agent d’entretien: ce qui a développé ma rigueur car dans ce milieu l’hygiène
+                            est indispensable. <br>-Assistant secrétariat: dans cette mission j’ai développé ma
+                            communication. J’ai envoyé des mails, des courriers, répondu au téléphone,
+                            et transmis les notes de services à l'équipe. J'ai aussi rangé et trié les papiers ce qui
+                            encore une fois m’a permis de développer un peu plus ma rigueur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card text-white bg-secondary mb-3">
+                    <div class="card-header text-center">Carrefour Market Drive</div>
+                    <img class="card-img-top" src="/images/Carrefour.jpg" alt="Card image cap" style="max-height: 300px;">
+                    <div class="card-body">
+                        <h4 class="card-title mb-4">Employé libre service</h4>
+
+                        <p class="card-text text-justify mb-5"><strong>Juillet 2018</strong>:
+                            Employé libre service au Carrefour Market de Beaurains. J’ai été affecté cette
+                            fois ci au drive. Je devais me charger de préparer et livrer les commandes des
+                            clients ainsi que procéder au paiement des clients lorsque cela été
+                            nécessaire.<br> Si il n’y avait plus de commande à préparer ni à livrer j’étais
+                            chargé de la mise en rayon du magasin. Une fois de plus j’ai testé mon efficacité
+                            et ma polyvalence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

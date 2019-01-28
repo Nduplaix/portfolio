@@ -1,0 +1,51 @@
+.navbar{
+    z-index: 1;
+}
+
+#div-accueil{
+    height: 82vh;
+    background-image: url("../images/div-accueil.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#div-accueil div{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+
+#Nom{
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 30vh;
+    font-size: 60px;
+}
+#Fonction{
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 30vh;
+    font-size: 40px;
+}
+
+p{
+
+    font-size: 22px;
+    line-height: 27px;
+}
+
+@media all and (max-width: 1024px) {
+    #div-accueil{
+        height: 20vh;
+    }
+    #Fonction{
+        top:3vh;
+    }
+    #Nom{
+        top:1vh;
+    }
+
+}
